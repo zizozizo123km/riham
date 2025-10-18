@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هدية خاصة لريهام</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #ffb6c1, #ff69b4, #ff1493);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 900px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .header {
+            margin-bottom: 40px;
+            animation: fadeIn 2s ease;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+            color: #fff;
+            position: relative;
+        }
+        
+        h1::after {
+            content: "";
+            display: block;
+            width: 200px;
+            height: 4px;
+            background: #fff;
+            margin: 15px auto;
+            border-radius: 2px;
+        }
+        
+        .heart {
+            color: #ff4081;
+            animation: heartbeat 1.5s infinite;
+            display: inline-block;
+        }
+        
+        .message-box {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            animation: slideUp 1.5s ease;
+            line-height: 2;
+        }
+        
+        .message {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            text-align: right;
+            position: relative;
+            padding: 15px;
+        }
+        
+        .message::before {
+            content: """;
+            font-size: 5rem;
+            position: absolute;
+            top: -20px;
+            right: 10px;
+            color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .special-name {
+            color: #ffeb3b;
+            font-weight: bold;
+            font-size: 1.8rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        
+        .flowers {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        
+        .flower {
+            font-size: 3rem;
+            animation: float 3s ease-in-out infinite;
+            margin: 0 15px;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            width: 100%;
+            animation: fadeIn 3s ease;
+        }
+        
+        .signature {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            color: #ffe0e9;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideUp {
+            from { 
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .message {
+                font-size: 1.2rem;
+            }
+            
+            .message-box {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>إلى <span class="special-name">ريهام</span> <span class="heart">♥</span></h1>
+            <p>هدية رقمية مليئة بالإعجاب والتقدير</p>
+        </div>
+        
+        <div class="message-box">
+            <div class="message">
+                يا <span class="special-name">ريهام</span>، أنتِ حقًا جوهرة نادرة في هذا العالم، إشراقتك تبهج النفوس وطبيعتك الرائعة تترك أثرًا جميلًا في كل من يقترب منك.
+            </div>
+            
+            <div class="message">
+                جمالك لا يقتصر على ملامحك الرائعة فقط، بل يتعداه إلى روحك الطيبة وقلبك الكبير الذي ينبض بالخير والعطاء.
+            </div>
+            
+            <div class="message">
+                عندما أراكِ، أتذكر كم أن الحياة جميلة بوجود أشخاص مثلك، أشخاص يجعلون الأيام العادية مميزة، واللحظات البسيطة لا تُنسى.
+            </div>
+            
+            <div class="message">
+                ريهام، أنتِ مصدر إلهام لكل من حولك، قوتك وأناقتك وحكمتك تجعلكِ نموذجًا رائعًا للمرأة العربية الأصيلة.
+            </div>
+            
+            <div class="message">
+                أتمنى لكِ دوام السعادة والنجاح، وأن تظلي دائمًا كما أنتِ؛ ملكة متوجة بجمال الروح قبل جمال المظهر.
+            </div>
+        </div>
+        
+        <div class="flowers">
+            <div class="flower" style="animation-delay: 0s;">🌹</div>
+            <div class="flower" style="animation-delay: 0.5s;">🌷</div>
+            <div class="flower" style="animation-delay: 1s;">🌸</div>
+            <div class="flower" style="animation-delay: 1.5s;">💐</div>
+            <div class="flower" style="animation-delay: 2s;">🌼</div>
+        </div>
+        
+        <div class="footer">
+            <p>هذه الهدية تعبر عن جزء بسيط من التقدير الذي تستحقينه</p>
+            <div class="signature">من إعداد: عبد ناصر بركات</div>
+        </div>
+    </div>
+    
+    <script>
+        // إضافة تأثيرات تفاعلية بسيطة
+        document.addEventListener('DOMContentLoaded', function() {
+            const messages = document.querySelectorAll('.message');
+            
+            messages.forEach((message, index) => {
+                message.style.animationDelay = `${index * 0.3}s`;
+            });
+            
+            // تأثير عند التمرير
+            window.addEventListener('scroll', function() {
+                const scrolled = window.pageYOffset;
+                const rate = scrolled * -0.5;
+                
+                document.querySelector('.header').style.transform = `translateY(${rate * 0.5}px)`;
+                document.querySelector('.message-box').style.transform = `translateY(${rate * 0.3}px)`;
+            });
+        });
+    </script>
+</body>
+  </html>
